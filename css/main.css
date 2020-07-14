@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html{
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	
+}
+
+nav ul li{
+	padding: 20px;
+}
+
+nav ul li a{
+	color: white!important;
+}
+
+
+.home{
+	width: 100%;
+	height: 100vh;
+	background: url( "../images/Automobili_Lamborghini_-_Official_Website___Lamborghini.com/hp_slider_sian_rds_01.jpg" );
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	
+	
+}
+
+.link{
+	width: 100%;
+	height: 100vh;
+	background: url( "../images/Automobili_Lamborghini_-_Official_Website___Lamborghini.com/Models.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.link1{
+	width: 100%;
+	height: 100vh;
+	background: url( "../images/Automobili_Lamborghini_-_Official_Website___Lamborghini.com/Homepage CC HURACAN_EVO_1920_706.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.link2{
+	width: 100%;
+	height: 2000px;
+	background-color: #f8f8f7;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent!important;
+	
+}
+
+.custom-nav{
+	top: 50%;
+}
+
+.navbar .mr-auto{
+	padding: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+hr{
+	border: 2px solid orange;
+}
+
+/*
+.nav-link.active{
+	padding: 0;	
+}
+*/
+
+
+.nav-link.custom-nav{
+	background: transparent !important;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: 50%;
+	transition: all 0.2s;
+	text-align: left;
+}
+
+#cus-but{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+#footer{
+	width: 100%;
+	height: 150px;
+	background-color: dimgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 20pt;
+	
+}
+
+.content-custom{
+	display: flex;
+	justify-content: center;
+	
+	flex-direction: column;
+}
+
+.content-custom button:hover{
+	background-color: #1B1B1B;
+	color: white;
+}
+
+#cus-but:hover button{
+	background-color: white!important;
+	color: black!important;
+}
+
+
+
+
+
+
